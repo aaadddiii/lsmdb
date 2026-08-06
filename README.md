@@ -1,4 +1,4 @@
-# lsmdb
+# lsmDB
 
 > A persistent LSM-Tree based Key-Value Storage Engine written in Go.
 
@@ -8,7 +8,7 @@
 
 ## Overview
 
-StrataDB is a lightweight storage engine built from scratch in Go to understand the internals of modern databases such as RocksDB, LevelDB, and Cassandra.
+lsmDB is a lightweight storage engine built from scratch in Go to understand the internals of modern databases such as RocksDB, LevelDB, and Cassandra.
 
 The project implements an LSM-Tree architecture that prioritizes high write throughput while maintaining efficient reads through immutable SSTables and background compaction.
 
@@ -109,7 +109,7 @@ Instead, they rely on Log Structured Merge Trees (LSM Trees), combining:
 - Immutable SSTables for efficient storage
 - Background compaction for long-term optimization
 
-StrataDB is an educational implementation of these concepts.
+lsmDB is an educational implementation of these concepts.
 
 ---
 
