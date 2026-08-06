@@ -1,4 +1,4 @@
-# StrataDB
+# lsmdb
 
 > A persistent LSM-Tree based Key-Value Storage Engine written in Go.
 
